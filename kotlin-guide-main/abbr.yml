@@ -1,0 +1,10 @@
+version: 1
+project:
+  abbreviations:
+    FQN: Fully-Qualified Name
+    LSP: Liskov Substitution Principle
+    JDK: Java Development Kit
+    JVM: Java Virtual Machine
+    KT: Kotlin Toolchain
+    SoCS: School of Computer Science
+    TDD: Test-Driven Development

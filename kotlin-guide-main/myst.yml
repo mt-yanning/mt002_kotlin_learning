@@ -1,0 +1,25 @@
+version: 1
+project:
+  id: 7410b331-0779-40de-a8fa-172939c74fcc
+  title: Kotlin Programming
+  description: A guide to object-oriented programming in Kotlin
+  numbering:
+    title: true
+    heading_1: true
+    heading_2: true
+    equation: false
+    figure:
+      continue: true
+
+extends:
+  - toc.yml
+  - abbr.yml
+
+site:
+  template: book-theme
+  options:
+    favicon: assets/images/kotlin.svg
+    logo: assets/images/kotlin.svg
+    logo_text: "COMP2850 Kotlin Programming"
+    folders: true
+    style: assets/css/custom.css

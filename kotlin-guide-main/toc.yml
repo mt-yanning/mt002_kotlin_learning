@@ -1,0 +1,166 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+
+    - file: start/index.md
+      children:
+        - file: start/working.md
+        - file: start/setup.md
+        - file: start/vscode.md
+        - file: start/intellij.md
+        - file: start/more.md
+
+    - file: first/index.md
+      children:
+        - file: first/hello.md
+        - file: first/build.md
+        - file: first/toolchain.md
+        - file: first/gradle.md
+
+    - file: types-vars/index.md
+      children:
+        - file: types-vars/numbers.md
+        - file: types-vars/text.md
+        - file: types-vars/defining.md
+        - file: types-vars/val-var.md
+        - file: types-vars/const.md
+        - file: types-vars/naming.md
+        - file: types-vars/solutions.md
+
+    - file: io-intro/index.md
+      children:
+        - file: io-intro/cmdline.md
+        - file: io-intro/conversion.md
+        - file: io-intro/input.md
+        - file: io-intro/output.md
+        - file: io-intro/files.md
+        - file: io-intro/solutions.md
+
+    - file: flow/index.md
+      children:
+        - file: flow/if-else.md
+        - file: flow/ranges.md
+        - file: flow/when.md
+        - file: flow/while.md
+        - file: flow/for.md
+        - file: flow/repeat.md
+        - file: flow/file-iter.md
+        - file: flow/str-iter.md
+        - file: flow/solutions.md
+
+    - file: funcs/index.md
+      children:
+        - file: funcs/block.md
+        - file: funcs/expression.md
+        - file: funcs/args.md
+        - file: funcs/extension.md
+        - file: funcs/infix.md
+
+    - file: testing1/index.md
+      children:
+        - file: testing1/what.md
+        - file: testing1/concepts.md
+        - file: testing1/writing.md
+        - file: testing1/gradle.md
+        - file: testing1/kotest.md
+        - file: testing1/solutions.md
+
+    - file: collect/index.md
+      children:
+        - file: collect/pair-trip.md
+        - file: collect/arrays.md
+        - file: collect/lists.md
+        - file: collect/sets-maps.md
+        - file: collect/in-iter.md
+        - file: collect/other.md
+        - file: collect/tasks.md
+        - file: collect/solutions.md
+
+    - file: lambda/index.md
+      children:
+        - file: lambda/defining.md
+        - file: lambda/using.md
+        - file: lambda/collections.md
+        - file: lambda/sequences.md
+        - file: lambda/higher-order.md
+        - file: lambda/scope.md
+        - file: lambda/solutions.md
+
+    - file: errors/index.md
+      children:
+        - file: errors/approaches.md
+        - file: errors/exceptions.md
+        - file: errors/throwing.md
+        - file: errors/catching.md
+        - file: errors/assert.md
+        - file: errors/task.md
+        - file: errors/solutions.md
+
+    - file: nulls/index.md
+      children:
+        - file: nulls/example.md
+        - file: nulls/types.md
+        - file: nulls/checks.md
+        - file: nulls/safe-call.md
+        - file: nulls/elvis.md
+        - file: nulls/or-null.md
+
+    - file: oo-model/index.md
+      children:
+        - file: oo-model/objclass.md
+        - file: oo-model/analysis.md
+        - file: oo-model/uml.md
+        - file: oo-model/tools.md
+        - file: oo-model/solutions.md
+
+    - file: classes/index.md
+      children:
+        - file: classes/basics.md
+        - file: classes/compare.md
+        - file: classes/construct.md
+        - file: classes/methods.md
+        - file: classes/props.md
+        - file: classes/vis.md
+        - file: classes/data.md
+        - file: classes/enum.md
+        - file: classes/object.md
+
+    - file: testing2/index.md
+      children:
+        - file: testing2/assertions.md
+        - file: testing2/fixtures.md
+        - file: testing2/config.md
+        - file: testing2/tdd.md
+        - file: testing2/doubles.md
+
+    - file: org-class/index.md
+      children:
+        - file: org-class/packages.md
+        - file: org-class/depend.md
+        - file: org-class/assoc.md
+        - file: org-class/agg-comp.md
+
+    - file: inherit/index.md
+      children:
+        - file: inherit/basics.md
+        - file: inherit/subclasses.md
+        - file: inherit/override.md
+        - file: inherit/case-study.md
+        - file: inherit/multi.md
+        - file: inherit/solutions.md
+
+    - file: abstract/index.md
+      children:
+        - file: abstract/basics.md
+        - file: abstract/abs-kotlin.md
+        - file: abstract/case-study.md
+
+    - file: interfaces/index.md
+      children:
+        - file: interfaces/basics.md
+        - file: interfaces/creating.md
+        - file: interfaces/using.md
+        - file: interfaces/props.md
+        - file: interfaces/case-study.md
+        - file: interfaces/solutions.md

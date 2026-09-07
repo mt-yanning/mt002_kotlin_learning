@@ -1,0 +1,21 @@
+/* Centre figure captions */
+
+figcaption {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Centre class diagrams */
+
+.classDiagram {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make footnotes a bit bigger */
+
+.myst-footnotes-list {
+    font-size: 0.85rem;
+}

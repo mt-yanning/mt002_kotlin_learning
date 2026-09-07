@@ -1,0 +1,24 @@
+alias b := build
+alias c := clean
+alias p := pristine
+alias s := serve
+
+# Show available commands
+help:
+  @just --list
+
+# Build site
+build:
+  uv run jupyter book build
+
+# Serve site locally
+serve:
+  uv run jupyter book start
+
+# Remove build output
+clean:
+  uv run jupyter book clean
+
+# Remove build output & downloaded template
+pristine:
+  rm -rf _build
