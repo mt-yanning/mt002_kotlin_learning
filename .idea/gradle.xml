@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task12_8_1" />
+        <option name="gradleJvm" value="corretto-26" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task12_8_1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task13_2" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task13_2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task13_4" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task13_4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task1_4" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task1_4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task4_2" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task4_2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task6_4" />
+        <option name="gradleJvm" value="openjdk-26" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task6_4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task7_7_2" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task7_7_2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-work-main/tasks/task9_4" />
+        <option name="gradleJvm" value="openjdk-26" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-work-main/tasks/task9_4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
