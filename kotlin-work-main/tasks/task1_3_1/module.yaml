@@ -3,3 +3,25 @@ product: jvm/app
 dependencies:
   - $libs.datetime.jvm
   - $libs.mordant
+
+# If you wish to use a specific version of Kotlin,
+#add something like the following to the settings section of module.yaml
+
+#settings:
+#  kotlin:
+#    version: 2.4.20
+
+
+# suppose that you put the “Hello World” program’s main() in a file named Hello.kt
+
+#settings:
+#  jvm:
+#    mainClass: HelloKt
+
+
+# You will also need to configure the main class explicitly if the source file containing main() has been made part of a package
+# e.g. package comp2850.hello
+
+#settings:
+#  jvm:
+#    mainClass: comp2850.hello.MainKt
