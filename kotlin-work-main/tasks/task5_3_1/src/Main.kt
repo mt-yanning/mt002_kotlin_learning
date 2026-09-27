@@ -3,4 +3,5 @@
 fun main() {
     rollDie(20)
     rollDie(11)
+    rollDie()
 }

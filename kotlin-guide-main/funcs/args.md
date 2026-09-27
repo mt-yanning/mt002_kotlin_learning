@@ -112,7 +112,7 @@ For this task, you will modify your solution to Task 5.1.2 slightly.
 
 Start by copying the two source files from `task5_1_2/src` to `task5_3_1/src`.
 
-Next, edit the new copy of `Die.kt` in `task5_3_1/src` and modify the
+Next, edit the new copy of `Circle.kt` in `task5_3_1/src` and modify the
 implementation of `rollDie()` so that the number of die sides defaults to 6.
 
 Now modify the `main()` function in `Main.kt` so that it calls `rollDie()`

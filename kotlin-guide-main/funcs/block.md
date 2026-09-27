@@ -130,7 +130,7 @@ correctly.
 ## Task 5.1.2
 
 Open the `tasks/task5_1_2` directory in your preferred editing environment.
-Add to the file `Die.kt` the code for the `rollDie()` function presented above.
+Add to the file `Circle.kt` the code for the `rollDie()` function presented above.
 
 Now edit `Main.kt`. Add to this file a `main()` function that calls `rollDie()`
 a few times, with different values for the number of die sides. Build the

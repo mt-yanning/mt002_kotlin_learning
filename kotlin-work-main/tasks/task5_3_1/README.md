@@ -2,7 +2,7 @@
 
 1. Copy the source files from Task 5.1.2 into the `src` subdirectory.
 
-2. Edit the copy of `Die.kt` so that the number of die sides defaults to 6.
+2. Edit the copy of `Circle.kt` so that the number of die sides defaults to 6.
 
 3. Modify `main()` in `Main.kt` so that it calls `rollDie()` without
    providing an argument when the number of die sides has not been provided
