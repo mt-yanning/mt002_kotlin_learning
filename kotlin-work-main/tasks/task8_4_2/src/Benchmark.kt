@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
     }
 
     val timeWith = measureTime {
-        File(args[0]).useLines { seq ->
+        File(args[0]).useLines { seq -> // useLines 返回的本身是 Sequence
             seq.filter { it.isNotBlank() }.filter { it.length < 10 }
                 .map { it.lowercase() }.toList()
         }
