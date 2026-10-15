@@ -2,6 +2,10 @@
 
 import kotlinx.datetime.LocalDate
 
-class Person(var name: String, val birth: LocalDate) {
+class Person(var _name: String, val birth: LocalDate) {
     var isMarried = false
+    var name = _name
+        get() {
+            return field.uppercase()
+        }
 }
