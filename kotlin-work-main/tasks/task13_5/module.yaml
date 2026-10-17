@@ -6,9 +6,9 @@ test-settings:
       freeJvmArgs: ["-Xshare:off", "-XX:+EnableDynamicAgentLoading"]
 
 dependencies:
-  - $libs.jackson
+  - $libs.jackson  # 应用依赖
 
-test-dependencies:
+test-dependencies: # 测试依赖
   - $libs.kotest.assertions
   - $libs.kotest.framework
   - $libs.kotest.runner: runtime-only
